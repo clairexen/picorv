@@ -1,0 +1,81 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Wed Nov  6 12:19:56 2019
+[*]
+[dumpfile] "/home/clifford/Work/sprojects/2019/picorvng/testbench.vcd"
+[dumpfile_mtime] "Wed Nov  6 12:17:33 2019"
+[dumpfile_size] 1796619
+[savefile] "/home/clifford/Work/sprojects/2019/picorvng/testbench.gtkw"
+[timestart] 0
+[size] 1403 1293
+[pos] -1 -1
+*-10.573535 4724 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.uut.
+[treeopen] testbench.uut.exec.
+[sst_width] 223
+[signals_width] 283
+[sst_expanded] 1
+[sst_vpaned_height] 394
+@28
+testbench.clock
+testbench.reset
+@200
+-
+@28
+testbench.mem_valid
+testbench.mem_ready
+testbench.mem_insn
+@200
+-
+@22
+testbench.mem_addr[31:0]
+testbench.mem_rdata[31:0]
+testbench.mem_wdata[31:0]
+testbench.mem_wstrb[3:0]
+@200
+-
+@28
+testbench.uut.ctrl.pcpi_valid
+testbench.uut.ctrl.pcpi_ready
+@22
+testbench.uut.ctrl.pcpi_pc[31:0]
+@23
+testbench.uut.ctrl.pcpi_insn[31:0]
+@200
+-
+@22
+testbench.uut.ctrl.scoreboard[30:0]
+testbench.uut.ctrl.reg__x1__ra[31:0]
+testbench.uut.ctrl.reg__x2__sp[31:0]
+testbench.uut.ctrl.reg__x3__gp[31:0]
+testbench.uut.ctrl.reg__x4__tp[31:0]
+testbench.uut.ctrl.reg__x5__t0[31:0]
+testbench.uut.ctrl.reg__x6__t1[31:0]
+testbench.uut.ctrl.reg__x7__t2[31:0]
+testbench.uut.ctrl.reg__x8__fp[31:0]
+testbench.uut.ctrl.reg__x9__s1[31:0]
+testbench.uut.ctrl.reg_x10__a0[31:0]
+testbench.uut.ctrl.reg_x11__a1[31:0]
+testbench.uut.ctrl.reg_x12__a2[31:0]
+testbench.uut.ctrl.reg_x13__a3[31:0]
+testbench.uut.ctrl.reg_x14__a4[31:0]
+testbench.uut.ctrl.reg_x15__a5[31:0]
+testbench.uut.ctrl.reg_x16__a6[31:0]
+testbench.uut.ctrl.reg_x17__a7[31:0]
+testbench.uut.ctrl.reg_x18__s2[31:0]
+testbench.uut.ctrl.reg_x19__s3[31:0]
+testbench.uut.ctrl.reg_x20__s4[31:0]
+testbench.uut.ctrl.reg_x21__s5[31:0]
+testbench.uut.ctrl.reg_x22__s6[31:0]
+testbench.uut.ctrl.reg_x23__s7[31:0]
+testbench.uut.ctrl.reg_x24__s8[31:0]
+testbench.uut.ctrl.reg_x25__s9[31:0]
+testbench.uut.ctrl.reg_x26_s10[31:0]
+testbench.uut.ctrl.reg_x27_s11[31:0]
+testbench.uut.ctrl.reg_x28__t3[31:0]
+testbench.uut.ctrl.reg_x29__t4[31:0]
+testbench.uut.ctrl.reg_x30__t5[31:0]
+testbench.uut.ctrl.reg_x31__t6[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

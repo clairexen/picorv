@@ -1,0 +1,73 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Mon Nov  4 09:14:41 2019
+[*]
+[dumpfile] "/home/clifford/Work/sprojects/2019/picorvng/picorvng_ctrl_fm_insn_cover/engine_0/trace0.vcd"
+[dumpfile_mtime] "Mon Nov  4 09:05:46 2019"
+[dumpfile_size] 41842
+[savefile] "/home/clifford/Work/sprojects/2019/picorvng/picorvng_ctrl_fm.gtkw"
+[timestart] 0
+[size] 1567 1018
+[pos] 878 64
+*-5.234744 58 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[sst_width] 223
+[signals_width] 286
+[sst_expanded] 1
+[sst_vpaned_height] 299
+@28
+top.clock
+top.reset
+top.busy
+@22
+top.rvec[31:0]
+@200
+-
+@28
+top.mem_valid
+top.mem_ready
+@22
+top.mem_addr[31:0]
+top.mem_rdata[31:0]
+@200
+-
+@28
+top.pcpi_valid
+@22
+top.pcpi_pc[31:0]
+top.pcpi_insn[31:0]
+top.pcpi_prefix[15:0]
+@200
+-
+@22
+top.pcpi_rd_addr[4:0]
+top.pcpi_rs1_addr[4:0]
+top.pcpi_rs2_addr[4:0]
+top.pcpi_rs3_addr[4:0]
+@200
+-
+@28
+top.pcpi_rs1_valid
+top.pcpi_rs2_valid
+top.pcpi_rs3_valid
+top.pcpi_wb_valid
+@200
+-
+@28
+top.pcpi_ready
+top.pcpi_wb_async
+top.pcpi_wb_write
+@29
+top.pcpi_br_enable
+@200
+-
+@28
+top.awb_valid
+top.awb_ready
+@22
+top.awb_addr[4:0]
+top.awb_data[31:0]
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,25 @@
+[tasks]
+check
+cover
+deep
+
+[options]
+check: mode bmc
+cover: mode cover
+deep: mode bmc
+
+~deep: depth 10
+deep: depth 15
+
+[engines]
+smtbmc boolector
+
+[script]
+read -noverific
+read -sv picorv_ctrl.v
+read -sv picorv_ctrl_fm_shadow.sv
+prep -top top
+
+[files]
+picorv_ctrl.v
+picorv_ctrl_fm_shadow.sv
