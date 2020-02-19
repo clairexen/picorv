@@ -1,0 +1,17 @@
+/picorv_core.v
+/dhry.elf
+/dhry.hex
+/dhry.vvp
+/dhry_1.o
+/dhry_2.o
+/syscalls.o
+/testbench.vcd
+/firmware.elf
+/firmware.hex
+/testbench
+/test.asc
+/test.json
+/test_nextpnr.log
+/test_yosys.log
+/.Xil/
+/test_vivado.log

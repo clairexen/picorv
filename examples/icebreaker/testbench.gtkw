@@ -1,0 +1,43 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Wed Feb 19 12:31:29 2020
+[*]
+[dumpfile] "/home/claire/Work/picorv/examples/icebreaker/testbench.vcd"
+[dumpfile_mtime] "Wed Feb 19 12:21:31 2020"
+[dumpfile_size] 207240914
+[savefile] "/home/claire/Work/picorv/examples/icebreaker/testbench.gtkw"
+[timestart] 92000000
+[size] 1000 600
+[pos] -1318 51
+*-29.786324 2518380000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 223
+[signals_width] 102
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@28
+testbench.CLK
+@200
+-
+@28
+testbench.LED1
+testbench.LED2
+testbench.LED3
+testbench.LED4
+testbench.LED5
+@200
+-
+@28
+testbench.RX
+testbench.TX
+@200
+-
+@29
+testbench.FLASH_IO0
+@28
+testbench.FLASH_IO1
+testbench.FLASH_IO2
+testbench.FLASH_IO3
+testbench.FLASH_SCK
+testbench.FLASH_SSB
+[pattern_trace] 1
+[pattern_trace] 0

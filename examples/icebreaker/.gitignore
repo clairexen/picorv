@@ -1,0 +1,14 @@
+/boot.elf
+/boot.hex
+/boot_tpl.hex
+/design.asc
+/design.bin
+/design.json
+/design_pnr.log
+/design_tpl.asc
+/design_ys.log
+/firmware.bin
+/firmware.elf
+/firmware.hex
+/testbench
+/testbench.vcd

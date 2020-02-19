@@ -21,13 +21,28 @@
 
 module testbench;
 	reg CLK;
+	integer i;
 
 	initial begin
 		$dumpfile("testbench.vcd");
 		$dumpvars(0, testbench);
 
 		#5 CLK = 0;
-		repeat (100000) #5 CLK = ~CLK;
+		for (i = 0; i < 100; i = i+1) begin
+			repeat (6000) #5 CLK = ~CLK;
+			if (i%10 == 0) begin
+				if (i)
+					$display();
+				$write("Running [%2d%%] ", i);
+				$fflush;
+			end else begin
+				$write(".");
+				$fflush;
+			end
+		end
+
+		$display();
+		$display("DONE");
 	end
 
 	wire LED1;
